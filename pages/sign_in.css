@@ -1,0 +1,166 @@
+
+@font-face {
+	font-family: iransansdn;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/iransansdnbold.eot');
+	src: url('../fonts/eot/iransansdnbold.eot?#iefix') format('embedded-opentype'),
+		/* IE6-8 */
+		url('../fonts/woff2/iransansdnbold.woff2') format('woff2'),
+		/* FF39+,Chrome36+, Opera24+*/
+		url('../fonts/woff/iransansdnbold.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		url('../fonts/ttf/iransansdnbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iransansdn;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/iransansdnlight.eot');
+	src: url('../fonts/eot/iransansdnlight.eot?#iefix') format('embedded-opentype'),
+		/* IE6-8 */
+		url('../fonts/woff2/iransansdnlight.woff2') format('woff2'),
+		/* FF39+,Chrome36+, Opera24+*/
+		url('../fonts/woff/iransansdnlight.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		url('../fonts/ttf/iransansdnlight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iransansdn;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/iransansdn.eot');
+	src: url('../fonts/eot/iransansdn.eot?#iefix') format('embedded-opentype'),
+		/* IE6-8 */
+		url('../fonts/woff2/iransansdn.woff2') format('woff2'),
+		/* FF39+,Chrome36+, Opera24+*/
+		url('../fonts/woff/iransansdn.woff') format('woff'),
+		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		url('../fonts/ttf/iransansdn.ttf') format('truetype');
+}
+
+* {
+	font-family: iransansdn;
+	text-align: right;
+	direction: rtl;
+	font-size: 17px;
+	color: black;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dde5f4;
+  height: 100vh;
+}
+
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+}
+.screen-1 .logo {
+  margin-top: -3em;
+}
+.screen-1 .email {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: -3em;
+}
+.screen-1 .email input {
+  outline: none;
+  border: none;
+}
+.screen-1 .email input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+}
+.screen-1 .password input {
+  outline: none;
+  border: none;
+}
+.screen-1 .password input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .password input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .password input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .password ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+}
+.screen-1 .login {
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.screen-1 .footer {
+  display: flex;
+  font-size: 0.7em;
+  color: #5e5e5e;
+  gap: 14em;
+  padding-bottom: 10em;
+}
+.screen-1 .footer span {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+.login{
+  text-align: center;
+  font-family: iransansdn;
+}
